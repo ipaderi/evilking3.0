@@ -1,0 +1,6 @@
+[B]Version 3.0.0[/B]
+Sistemato compatibilità con Kodi 16
+Sistemato compatibilità con Kodi 17
+Sistemato compatibilità con Kodi 17.1
+Sistemato compatibilità con Kodi 18.0
+Per info e segnalazioni bug contattami su telegram @iPaderi

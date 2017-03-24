@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.evilkingplus30" 
+       name="[COLOR cyan]Evil [COLOR blue]King [COLOR red]Plus [COLOR yellow] 3.0.0[/COLOR]" 
+	   version="3.0.0" 
+	   provider-name="@iPaderi">
+	   
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.beautifulsoup" version="3.2.1"/>
+    <import addon="script.module.simple.downloader" version="0.9.4"/>
+    <import addon="script.module.beautifulsoup4" />
+    <import addon="script.module.requests" />
+    <import addon="script.module.httplib2" />
+    <import addon="script.module.youtube.dl" optional="true"/>
+    <import addon="plugin.video.youtube" optional="true" />
+    <import addon="script.module.urlresolver" optional="true"/>
+    <import addon="script.module.simplejson" />
+	<import addon="script.module.livestreamer" optional="true"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>[COLOR cyan]Evil [COLOR blue]King [COLOR red]Plus 3.0.0 [COLOR lime] - rev. by @iPaderi [/COLOR]</summary>
+    <description lang="en">[COLOR blue][B]Evil King Plus 3.0 è il miglior addon in circolazione per guardare la tua TV preferita sul tuo mediacenter preferito! [/B][/COLOR]</description>
+    <platform>all</platform>
+  </extension>
+</addon>
